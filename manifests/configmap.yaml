@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: market-scanner-config
+data:
+  config.yaml: |
+    # Configuration for the market scanner
